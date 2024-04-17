@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+
+#cabecalho{
+    height: 150px;
+    background-color: #0f9782;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#menu{
+    height: 500px;
+    width: 220px;
+   /* background-color: rgb(8, 163, 211);*/
+  /*background-color: #1a5276;*/
+  background-color: #4dcab3;
+    float: left;
+    margin-left: 37px;
+    margin-top: 10px;
+    
+}
+
+
+#conteudo{
+    height: 500px;
+    width: 935px;
+    background-color: #e7f6f2;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+#lado{
+    height: 500px;
+    width: 220px;
+    background-color: #4dcab3;
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-block-end: 5px;
+}
+
+#rodape{
+    height: 100px;
+    background-color: black;
+    clear: both;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+button {
+    border-radius: 20px; /* Define o raio da borda para deixar o botão arredondado */
+    padding: 10px 20px; /* Adiciona espaço interno ao botão */
+    /*background-color: #06eb6d;  Cor de fundo do botão */
+    background-color: #00c0fa;
+    color: white; /* Cor do texto do botão */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    text-decoration: none; /* Remove a sublinhado do texto */
+    display: inline-block; /* Faz o botão se comportar como um bloco inline */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao botão */
+    opacity: 0.8; /* Define a opacidade inicial do menu */
+    transition: opacity 0.3s ease; /* Adiciona uma transição suave para a propriedade opacity */
+}
+button:hover {
+    opacity: 1; /* Ao passar o mouse sobre o menu, a opacidade será 1 (totalmente visível) */
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+}
+#champions{
+    height: 200px;
+    width: 200px;
+    align-items: center;
+    display: block; /* Faz a imagem se comportar como um bloco */
+    margin: auto; /* Define margens automáticas para centralizar a imagem */
+}
+#texto-competicoes {
+    text-align: justify;
+    text-align-last: justify;
+    font-family: "Arial", sans-serif; /* Exemplo de fonte que combina */
+}
+.container {
+    text-align: center; /* Alinha o conteúdo do container no centro */
+}
