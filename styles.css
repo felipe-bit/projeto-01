@@ -16,7 +16,8 @@ body{
     width: 95%;
     margin: 0 auto;
     text-align: center;
-    border-radius: 20px; /* Raio dos cantos para tornar o menu arredondado */
+    border-radius: 20px; 
+
 }
 
 #menu{
@@ -75,8 +76,13 @@ button {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao botão */
     opacity: 0.8; /* Define a opacidade inicial do menu */
     transition: opacity 0.3s ease; /* transição */
+    margin-right: 30px;
     
 }
+#instagram{
+    margin-left: 45px;
+}
+
 button:hover {
     opacity: 1; /* Ao passar o mouse sobre o menu, a opacidade será 1 (totalmente visível) */
 }
@@ -101,4 +107,32 @@ header{
 }
 .container {
     text-align: center; /* Alinha o conteúdo do container no centro */
+}
+
+.anuncio {
+    padding: 20px; /* Espaçamento interno do anúncio */
+    text-align: center; /* Centraliza o texto do anúncio */
+    font-weight: bold; /* Texto em negrito */
+}
+
+@keyframes animacao-rodape {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+}
+
+.rodape {
+    background-color: #333; /* Cor de fundo do rodapé */
+    padding: 20px; /* Espaçamento interno do rodapé */
+    text-align: center; /* Centraliza o conteúdo do rodapé */
+    display: flex; /* Usa flexbox para centralizar o texto */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.texto-animado {
+    font-size: 24px; 
+    font-family: Bubblebody Neue Inline;
+    color: #00ffe5; 
+    animation: animacao-rodape 2s infinite; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
