@@ -16,17 +16,19 @@ body{
     width: 95%;
     margin: 0 auto;
     text-align: center;
+    border-radius: 20px; /* Raio dos cantos para tornar o menu arredondado */
 }
 
 #menu{
     height: 500px;
     width: 220px;
-   /* background-color: rgb(8, 163, 211);*/
-  /*background-color: #1a5276;*/
-  background-color: #4dcab3;
+    /* background-color: rgb(8, 163, 211);*/
+    /*background-color: #1a5276;*/
+    background-color: #4dcab3;
     float: left;
     margin-left: 37px;
     margin-top: 10px;
+    border-radius: 20px;
     
 }
 
@@ -49,6 +51,7 @@ body{
     margin-left: 5px;
     margin-top: 10px;
     margin-block-end: 5px;
+    border-radius: 20px;
 }
 
 #rodape{
@@ -71,7 +74,8 @@ button {
     display: inline-block; /* Faz o botão se comportar como um bloco inline */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao botão */
     opacity: 0.8; /* Define a opacidade inicial do menu */
-    transition: opacity 0.3s ease; /* Adiciona uma transição suave para a propriedade opacity */
+    transition: opacity 0.3s ease; /* transição */
+    
 }
 button:hover {
     opacity: 1; /* Ao passar o mouse sobre o menu, a opacidade será 1 (totalmente visível) */
